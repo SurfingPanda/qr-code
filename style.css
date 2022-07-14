@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;600;700&family=Outfit:wght@400;700&family=Oxygen:wght@300;400;700&family=Poppins:wght@400;700&display=swap');
+
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb( 213, 225, 239);
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    border: 1px solid rgb( 222, 229, 236);
+    margin: 65px auto 0;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    flex-direction: column;
+    box-shadow: 5px 10px 10px #8888;
+}
+
+.container img{
+    height: auto;
+    width: 260px;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+.container h4{
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    color: gray;
+}
